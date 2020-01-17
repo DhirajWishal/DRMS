@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DRMS", "DRMS\DRMS.vcxproj", "{5BC0837C-47F7-840D-F0E3-6A10DCF9000F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Distribution|x64 = Distribution|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BC0837C-47F7-840D-F0E3-6A10DCF9000F}.Debug|x64.ActiveCfg = Debug|x64
+		{5BC0837C-47F7-840D-F0E3-6A10DCF9000F}.Debug|x64.Build.0 = Debug|x64
+		{5BC0837C-47F7-840D-F0E3-6A10DCF9000F}.Distribution|x64.ActiveCfg = Distribution|x64
+		{5BC0837C-47F7-840D-F0E3-6A10DCF9000F}.Distribution|x64.Build.0 = Distribution|x64
+		{5BC0837C-47F7-840D-F0E3-6A10DCF9000F}.Release|x64.ActiveCfg = Release|x64
+		{5BC0837C-47F7-840D-F0E3-6A10DCF9000F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
