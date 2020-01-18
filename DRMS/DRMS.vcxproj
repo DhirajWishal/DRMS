@@ -136,6 +136,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\core\commandProcessor.cpp" />
+    <ClCompile Include="src\core\utils\timer.cpp" />
+    <ClCompile Include="src\core\repositoryManager.cpp" />
     <ClCompile Include="src\core\forms\creationForm.cpp" />
     <ClCompile Include="src\core\forms\deletionForm.cpp" />
     <ClCompile Include="src\core\forms\resourceRequestForm.cpp" />
@@ -148,6 +150,8 @@
     <ClInclude Include="src\core\commandProcessor.h" />
     <ClInclude Include="src\core\data store\enumerations.h" />
     <ClInclude Include="src\core\data store\structures.h" />
+    <ClInclude Include="src\core\utils\timer.h" />
+    <ClInclude Include="src\core\repositoryManager.h" />
     <ClInclude Include="src\core\forms\creationForm.h" />
     <ClInclude Include="src\core\forms\deletionForm.h" />
     <ClInclude Include="src\core\forms\resourceRequestForm.h" />

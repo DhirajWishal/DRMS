@@ -20,6 +20,8 @@ namespace DRMS {
 		DRMSCommandContainer _secondaryCheck(std::vector<std::string> commands,
 			DRMSCommandContainer container, uint32_t indexOffset = 0);
 
+		bool _commandCheck(uint32_t count, DRMSCommandType type);
+
 		const std::vector<std::string_view> myPrimaryCommandTypes = {
 			"terminate",
 			"request",
@@ -31,7 +33,8 @@ namespace DRMS {
 			"push",
 			"bs",
 			"execute",
-			"register"
+			"register",
+			"add"
 		};
 		const std::vector<std::string_view> mySecondaryCommandTypes = {
 			"creation",
@@ -39,7 +42,8 @@ namespace DRMS {
 			"deletion",
 			"crch",
 			"avch",
-			"dech"
+			"dech",
+			"repository"
 		};
 		const std::vector<std::string_view> myTernaryCommandTypes = {};
 

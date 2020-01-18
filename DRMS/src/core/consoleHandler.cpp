@@ -65,7 +65,18 @@ namespace DRMS {
 		_localContainer.reason = ((_localCommandContainer[4].size()) ? _localCommandContainer[4] : "NULL");
 		_localContainer.ETR = ((_localCommandContainer[5].size()) ? _localCommandContainer[5] : "NULL");
 
+		if (container.subType == DRMSCommandSubType::DRMS_COMMAND_SUB_TYPE_UPDATION_FORM) {
+			_printToConsole("\tDestination: ");
+			_localCommandContainer.push_back(getCommand(false, false));
+			_localContainer.destination = ((_localCommandContainer[6].size()) ? _localCommandContainer[6] : "C:\\Users\\USER\\Downloads");
+		}
+
 		return _localContainer;
+	}
+
+	std::string consoleHandler::getRepositoryPath() {
+		_printToConsole("\t" + std::string("Repository Path: "));
+		return getCommand(false, false);
 	}
 
 	/* INTERNAL FUNCTIONS */

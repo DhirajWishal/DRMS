@@ -8,8 +8,10 @@
 namespace DRMS {
 	class updationForm : public ResourceRequestForm {
 	public:
-		updationForm(DRMSResourceFormDataContainer container) : ResourceRequestForm(container) {}
+		updationForm(DRMSResourceFormDataContainer container);
 		~updationForm() {}
+
+		std::string myDestination = "";
 	};
 }
 

@@ -19,6 +19,16 @@ namespace DRMS {
 		std::string fileName = "";
 		std::string reason = "";
 		std::string ETR = "";
+
+		std::string destination = "";
+	};
+
+	struct DRMSResourceRepository {
+		std::string mySolutionPath = "";
+		std::vector<std::string> myProjectPaths = {};
+		std::vector<std::string> myFilePaths = {};
+		std::vector<std::fstream> myFiles = {};
+		DRMSProjectType myProjectType = DRMSProjectType::DRMS_PROJECT_TYPE_CPP;
 	};
 }
 

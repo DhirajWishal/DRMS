@@ -19,7 +19,6 @@ namespace DRMS {
 		void setReason(std::string_view reason);
 		void setETR(std::string_view etr);
 
-	protected:
 		std::string myDeveloperID = "";
 		std::string myDeveloperName = "";
 		std::string myRequestDate = "";

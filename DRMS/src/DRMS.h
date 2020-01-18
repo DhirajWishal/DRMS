@@ -4,6 +4,7 @@
 #define _DRMS_H
 
 #include "core/consoleHandler.h"
+#include "core/repositoryManager.h"
 #include "core/commandProcessor.h"
 
 #include "core/forms/resourceRequestForm.h"
@@ -15,5 +16,7 @@
 #include "core/data store/structures.h"
 
 #include "core/functions/functions.h"
+
+#include "core/utils/timer.h"
 
 #endif

@@ -19,6 +19,7 @@ namespace DRMS {
 		void println(std::string_view output);
 
 		DRMSResourceFormDataContainer getFormData(DRMSCommandContainer& container);
+		std::string getRepositoryPath();
 
 	private:
 		void _printToConsole(std::string_view _output);
