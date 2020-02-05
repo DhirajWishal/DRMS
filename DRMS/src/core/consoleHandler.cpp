@@ -68,7 +68,7 @@ namespace DRMS {
 		if (container.subType == DRMSCommandSubType::DRMS_COMMAND_SUB_TYPE_UPDATION_FORM) {
 			_printToConsole("\tDestination: ");
 			_localCommandContainer.push_back(getCommand(false, false));
-			_localContainer.destination = ((_localCommandContainer[6].size()) ? _localCommandContainer[6] : "C:\\Users\\USER\\Downloads");
+			_localContainer.destination = ((_localCommandContainer[6].size()) ? _localCommandContainer[6] : "C:\\Users\\USER\\Documents\\");
 		}
 
 		return _localContainer;

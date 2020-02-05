@@ -1,7 +1,7 @@
 #pragma once
 
-#ifndef _DRMS_FILE_HANDLER_H
-#define _DRMS_FILE_HANDLER_H
+#ifndef _DRMS_REPOSITORY_MANAGER_H
+#define _DRMS_REPOSITORY_MANAGER_H
 
 #include <string>
 #include <vector>
